@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitale Visitenkarte</title>
+    <!-- Verhindert die Indexierung durch Google & Suchmaschinen -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f4f4f6;
+            color: #111;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            max-width: 380px;
+            margin: 0 auto;
+            padding: 40px 25px;
+            border-radius: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 { font-size: 22px; margin-bottom: 8px; }
+        p { color: #666; font-size: 15px; margin-top: 0; margin-bottom: 30px; }
+        .btn {
+            background-color: #007aff;
+            color: white;
+            padding: 16px 24px;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 17px;
+            font-weight: 600;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Digitale Visitenkarte</h1>
+        <p>Tippen Sie unten, um den Kontakt direkt auf Ihrem Smartphone zu speichern.</p>
+        <!-- Verknüpfung zu Ihrer vcf-Datei mit Download-Erzwungung -->
+        <a href="kontakt.vcf" class="btn" download>Kontakt speichern</a>
+    </div>
+</body>
+</html>
